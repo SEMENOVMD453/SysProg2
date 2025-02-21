@@ -8,11 +8,11 @@
 
 void print_help() {
     printf("Usage: myutil [OPTIONS]\n");
-    printf("  -u, --users        Show list of users and home directories\n");
-    printf("  -p, --processes    Show list of running processes\n");
-    printf("  -h, --help         Show this help message\n");
-    printf("  -l, --log PATH     Log output to file at PATH\n");
-    printf("  -e, --errors PATH  Log errors to file at PATH\n");
+    printf("  -u, --users        Показать пользователей домашней директории\n");
+    printf("  -p, --processes    Показать запущенные процессы\n");
+    printf("  -h, --help         Показать раздел помощи\n");
+    printf("  -l, --log PATH     Вывести в лог файл\n");
+    printf("  -e, --errors PATH  Вывести ошибки в лог файл\n");
 }
 
 int main(int argc, char *argv[]) {
