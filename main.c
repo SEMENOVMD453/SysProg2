@@ -42,14 +42,14 @@ int main(int argc, char *argv[]) {
             case 'l':
                 log_file = fopen(optarg, "w");
                 if (!log_file) {
-                    fprintf(stderr, "Error: Unable to open log file: %s\n", optarg);
+                        fprintf(stderr, "Невозможно открыть log файл: %s\n", optarg);
                     return 1;
                 }
                 break;
             case 'e':
                 error_file = fopen(optarg, "w");
                 if (!error_file) {
-                    fprintf(stderr, "Error: Unable to open error log file: %s\n", optarg);
+                    fprintf(stderr, "Невозможно открыть log файл: %s\n", optarg);
                     return 1;
                 }
                 break;
