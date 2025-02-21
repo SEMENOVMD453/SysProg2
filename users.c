@@ -5,7 +5,7 @@
 #include <pwd.h>
 #include <unistd.h>
 
-#define MIN_UID 1000  // Пользователи ОС обычно имеют UID >= 1000
+#define MIN_UID 1000
 
 void list_users() {
     struct passwd *pwd;
