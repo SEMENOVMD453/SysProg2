@@ -3,7 +3,6 @@
 
 #include <stdio.h>
 
-// Добавляем extern перед переменными
 extern FILE *log_file;
 extern FILE *error_file;
 
